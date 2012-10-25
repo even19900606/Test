@@ -7,9 +7,11 @@
 import java.io.*;
 import java.util.*;
 
+//Version4 
 public class Homework1 {
 	public static void main(String args[]) throws Exception{
 		long start, end, time;
+		
 		//save the list of stopwords into memory
 		HashMap<String, Integer>stopword = new HashMap<String, Integer>();
 		LoadStopWords(stopword);
